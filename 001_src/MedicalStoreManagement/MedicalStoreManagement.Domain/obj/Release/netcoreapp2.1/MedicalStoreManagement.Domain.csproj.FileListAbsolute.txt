@@ -1,0 +1,11 @@
+C:\Users\CC-PC\source\repos\MedicalStoreManagement\001_src\MedicalStoreManagement\MedicalStoreManagement.Domain\bin\Release\netcoreapp2.1\MedicalStoreManagement.Domain.deps.json
+C:\Users\CC-PC\source\repos\MedicalStoreManagement\001_src\MedicalStoreManagement\MedicalStoreManagement.Domain\bin\Release\netcoreapp2.1\MedicalStoreManagement.Domain.runtimeconfig.json
+C:\Users\CC-PC\source\repos\MedicalStoreManagement\001_src\MedicalStoreManagement\MedicalStoreManagement.Domain\bin\Release\netcoreapp2.1\MedicalStoreManagement.Domain.runtimeconfig.dev.json
+C:\Users\CC-PC\source\repos\MedicalStoreManagement\001_src\MedicalStoreManagement\MedicalStoreManagement.Domain\bin\Release\netcoreapp2.1\MedicalStoreManagement.Domain.dll
+C:\Users\CC-PC\source\repos\MedicalStoreManagement\001_src\MedicalStoreManagement\MedicalStoreManagement.Domain\bin\Release\netcoreapp2.1\MedicalStoreManagement.Domain.pdb
+C:\Users\CC-PC\source\repos\MedicalStoreManagement\001_src\MedicalStoreManagement\MedicalStoreManagement.Domain\obj\Release\netcoreapp2.1\MedicalStoreManagement.Domain.csprojAssemblyReference.cache
+C:\Users\CC-PC\source\repos\MedicalStoreManagement\001_src\MedicalStoreManagement\MedicalStoreManagement.Domain\obj\Release\netcoreapp2.1\MedicalStoreManagement.Domain.csproj.CoreCompileInputs.cache
+C:\Users\CC-PC\source\repos\MedicalStoreManagement\001_src\MedicalStoreManagement\MedicalStoreManagement.Domain\obj\Release\netcoreapp2.1\MedicalStoreManagement.Domain.AssemblyInfoInputs.cache
+C:\Users\CC-PC\source\repos\MedicalStoreManagement\001_src\MedicalStoreManagement\MedicalStoreManagement.Domain\obj\Release\netcoreapp2.1\MedicalStoreManagement.Domain.AssemblyInfo.cs
+C:\Users\CC-PC\source\repos\MedicalStoreManagement\001_src\MedicalStoreManagement\MedicalStoreManagement.Domain\obj\Release\netcoreapp2.1\MedicalStoreManagement.Domain.dll
+C:\Users\CC-PC\source\repos\MedicalStoreManagement\001_src\MedicalStoreManagement\MedicalStoreManagement.Domain\obj\Release\netcoreapp2.1\MedicalStoreManagement.Domain.pdb

@@ -68,7 +68,7 @@ using MedicalStoreManagement.Web.Models;
             WriteLiteral("\r\n<h1 style=\"color: darkred\">Medical Store</h1>\r\n\r\n<div class=\"navbar-link\">\r\n    <ul>\r\n        <li>");
             EndContext();
             BeginContext(192, 107, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "01ab5061090f41d095accb8ce47f9a18", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "22cfbeb7ed3d4b55abe4339957dba36a", async() => {
                 BeginContext(276, 19, true);
                 WriteLiteral("Category Management");
                 EndContext();
@@ -95,7 +95,7 @@ using MedicalStoreManagement.Web.Models;
             WriteLiteral("</li>\r\n        <li>");
             EndContext();
             BeginContext(318, 109, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ebb4b89cd1f34a9c84951df5207a4f77", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9b71fee3a1e04a79b007fdef69062d56", async() => {
                 BeginContext(403, 20, true);
                 WriteLiteral("Inventory Management");
                 EndContext();

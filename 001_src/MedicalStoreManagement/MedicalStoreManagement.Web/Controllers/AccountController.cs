@@ -84,7 +84,7 @@ namespace MedicalStoreManagement.Web.Controllers
                 await _userManager.AddClaimAsync(user, claim);
             }
 
-            return RedirectToAction("Sporteli", "Ordinance");
+            return RedirectToAction("Login", "Account");
             //return View(model);
         }
 
