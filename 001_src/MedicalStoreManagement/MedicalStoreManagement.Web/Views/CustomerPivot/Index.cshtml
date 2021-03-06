@@ -1,0 +1,54 @@
+﻿@model MedicalStoreManagement.Web.ViewModels.CustomerPivotViewModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1 style="color: darkred">Index</h1>
+
+<p>
+    <a asp-action="AddCustomerPivot">Create New CustomerPivot</a>
+</p>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>
+                #
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Research)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProductId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProductStatus)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.CustomerPivots) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Research)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Product.Product_Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductStatus)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "EditUpdate", new { customerPivotId = item.Id }, new { onclick = "return confirm('Are you sure want to edit this customerPivot?');" }) |
+                @Html.ActionLink("Details", "Details", new { customerPivotId = item.Id }, new { onclick = "return confirm('Are you sure want to detail this customerPivot?');" }) |
+                @Html.ActionLink("Delete", "DeleteCustomerPivot", new { customerPivotId = item.Id }, new { onclick = "return confirm('Are you sure want to delete this customerPivot?');" })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

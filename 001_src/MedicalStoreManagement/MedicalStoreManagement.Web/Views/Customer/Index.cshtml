@@ -1,0 +1,48 @@
+﻿@model MedicalStoreManagement.Web.ViewModels.CustomerViewModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1 style="color: darkred">Index</h1>
+
+<p>
+    <a class="btn btn-primary" asp-action="AddCustomer">Create New Customer</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                #
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Recepts)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProductID)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Customers) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                <img src="~/ImageAsset/@item.Recepts" width="40" height="40" asp-append-version="true"/>
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Product.Product_Name)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "EditCustomer", new { customerId = item.Id }, new { onclick = "return confirm('Are you sure want to edit this customer?');" }) |
+                @Html.ActionLink("Details", "Details", new { customerId = item.Id }, new { onclick = "return confirm('Are you sure want to detail this customer?');" }) |
+                @Html.ActionLink("Delete", "DeleteCustomer", new { customerId = item.Id }, new { onclick = "return confirm('Are you sure want to delete this customer?');" })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

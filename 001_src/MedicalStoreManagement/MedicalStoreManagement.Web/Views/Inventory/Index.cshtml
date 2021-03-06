@@ -1,0 +1,17 @@
+﻿@model MedicalStoreManagement.Web.ViewModels.InventoryViewModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="col-lg-10">
+    <a class="btn btn-primary" asp-area="" asp-controller="Inventory" asp-action="AddInventory">Create New Inventory</a>
+</div>
+
+<div class="col-lg-12">
+    @foreach (var item in Model.Inventories)
+    {
+        <a asp-area="" asp-controller="Inventory" asp-action="ListInventory"><img src="~/ImageAsset/@item.ImageName" class="img-responsive" width="300" height="300" /></a>
+    }
+</div>

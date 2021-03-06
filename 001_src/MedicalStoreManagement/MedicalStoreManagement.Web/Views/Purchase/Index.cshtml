@@ -1,0 +1,65 @@
+﻿@model MedicalStoreManagement.Web.ViewModels.PurchaseViewModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1 style="color: darkred">Index</h1>
+
+<p>
+    <a asp-action="AddPurchase">Create New Purchase</a>
+</p>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>
+                #
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProductID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Quantity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TotaliPurchases)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FurnitorID)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Purchases) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Product.Product_Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Quantity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            @{ var totliPurchases = item.Quantity * item.Price;}
+            <td>@totliPurchases</td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Furnitor.Furnitor_FirstName)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "EditPurchase", new { purchaseId = item.Id }, new { onclick = "return confirm('Are you sure want to edit this purchase?');" }) |
+                @Html.ActionLink("Details", "Details", new { purchaseId = item.Id }, new { onclick = "return confirm('Are you sure want to detail this purchase?');" }) |
+                @Html.ActionLink("Delete", "DeletePurchase", new { purchaseId = item.Id }, new { onclick = "return confirm('Are you sure want to delete this purchase?');" })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

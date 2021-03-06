@@ -1,0 +1,66 @@
+﻿@model MedicalStoreManagement.Web.ViewModels.FurnitorViewModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1 style="color: darkred">Index</h1>
+
+<p>
+    <a asp-action="AddFurnitor">Create New Furnitor</a>
+</p>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>
+                #
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Furnitor_FirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Furnitor_LastName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Furnitor_NrPhone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Furnitor_Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Furnitor_Address)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Furnitors) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Furnitor_FirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Furnitor_LastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Furnitor_NrPhone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Furnitor_Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Furnitor_Address)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "EditFurnitor", new { furnitorId = item.Id }) |
+                @Html.ActionLink("Details", "Details", new { furnitorId = item.Id }) |
+                @Html.ActionLink("Delete", "DeleteFurnitor", new { furnitorId = item.Id })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

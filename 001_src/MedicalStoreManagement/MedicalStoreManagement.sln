@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1300
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8A8F904E-3BA7-4077-A458-68C853216218}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{5BB98A70-2D04-4E8E-8FD9-02395E824C13}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10 DataAccessLayer", "10 DataAccessLayer", "{216B19A9-8EA6-4480-80F7-6EEDA65451F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "20 BusinessLogicLayer", "20 BusinessLogicLayer", "{F30A8DA5-2F42-4910-9BD2-00E1F551818A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "30 PresentationLayer", "30 PresentationLayer", "{3EA17750-CD30-409A-B0C7-395116869435}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MedicalStoreManagement.Domain", "MedicalStoreManagement.Domain\MedicalStoreManagement.Domain.csproj", "{3E9A90CB-02F2-463B-8D9E-8DC15D26A1CC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MedicalStoreManagement.Infrastructure", "MedicalStoreManagement.Infrastructure\MedicalStoreManagement.Infrastructure.csproj", "{DE43DE22-2B2A-4071-98F5-7FCC7B9FA1CC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MedicalStoreManagement.Application", "MedicalStoreManagement.Application\MedicalStoreManagement.Application.csproj", "{A8F36458-DB3C-4FDE-BD57-B49520027752}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MedicalStoreManagement.Web", "MedicalStoreManagement.Web\MedicalStoreManagement.Web.csproj", "{AD178D08-EA02-49DC-A886-210184CDC844}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E9A90CB-02F2-463B-8D9E-8DC15D26A1CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E9A90CB-02F2-463B-8D9E-8DC15D26A1CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E9A90CB-02F2-463B-8D9E-8DC15D26A1CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E9A90CB-02F2-463B-8D9E-8DC15D26A1CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE43DE22-2B2A-4071-98F5-7FCC7B9FA1CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE43DE22-2B2A-4071-98F5-7FCC7B9FA1CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE43DE22-2B2A-4071-98F5-7FCC7B9FA1CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE43DE22-2B2A-4071-98F5-7FCC7B9FA1CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8F36458-DB3C-4FDE-BD57-B49520027752}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8F36458-DB3C-4FDE-BD57-B49520027752}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8F36458-DB3C-4FDE-BD57-B49520027752}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8F36458-DB3C-4FDE-BD57-B49520027752}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD178D08-EA02-49DC-A886-210184CDC844}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD178D08-EA02-49DC-A886-210184CDC844}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD178D08-EA02-49DC-A886-210184CDC844}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD178D08-EA02-49DC-A886-210184CDC844}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{216B19A9-8EA6-4480-80F7-6EEDA65451F8} = {8A8F904E-3BA7-4077-A458-68C853216218}
+		{F30A8DA5-2F42-4910-9BD2-00E1F551818A} = {8A8F904E-3BA7-4077-A458-68C853216218}
+		{3EA17750-CD30-409A-B0C7-395116869435} = {8A8F904E-3BA7-4077-A458-68C853216218}
+		{3E9A90CB-02F2-463B-8D9E-8DC15D26A1CC} = {216B19A9-8EA6-4480-80F7-6EEDA65451F8}
+		{DE43DE22-2B2A-4071-98F5-7FCC7B9FA1CC} = {216B19A9-8EA6-4480-80F7-6EEDA65451F8}
+		{A8F36458-DB3C-4FDE-BD57-B49520027752} = {F30A8DA5-2F42-4910-9BD2-00E1F551818A}
+		{AD178D08-EA02-49DC-A886-210184CDC844} = {3EA17750-CD30-409A-B0C7-395116869435}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {212C8B3C-4118-46B2-B2A1-10F52F586480}
+	EndGlobalSection
+EndGlobal

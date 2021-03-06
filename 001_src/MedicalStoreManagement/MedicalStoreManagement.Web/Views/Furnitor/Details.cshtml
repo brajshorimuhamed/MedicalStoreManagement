@@ -1,0 +1,52 @@
+﻿@model MedicalStoreManagement.Web.ViewModels.FurnitorViewModel
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1 style="color: darkred">Details</h1>
+
+<div>
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Id)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Furnitor_FirstName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Furnitor_FirstName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Furnitor_LastName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Furnitor_LastName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Furnitor_NrPhone)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Furnitor_NrPhone)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Furnitor_Email)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Furnitor_Email)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Furnitor_Address)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Furnitor_Address)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

@@ -1,0 +1,35 @@
+﻿@model MedicalStoreManagement.Web.ViewModels.CategoryViewModel
+
+@{
+    ViewData["Title"] = "AddCategory";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1 style="color: darkred">Add Category</h1>
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="AddCategory">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Category_Name" class="control-label"></label>
+                <input asp-for="Category_Name" placeholder="Enter category name" class="form-control" />
+                <span asp-validation-for="Category_Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Category_Quantity" class="control-label"></label>
+                <input asp-for="Category_Quantity" placeholder="Enter category quantity" class="form-control" />
+                <span asp-validation-for="Category_Quantity" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Add Category" class="btn btn-success" />
+                <input type="reset" value="Clear" class="btn btn-danger"/>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

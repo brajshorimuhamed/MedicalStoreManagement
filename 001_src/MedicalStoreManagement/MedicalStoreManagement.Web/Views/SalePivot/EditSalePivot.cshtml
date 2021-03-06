@@ -1,0 +1,51 @@
+﻿@model MedicalStoreManagement.Web.ViewModels.SalePivotViewModel
+
+@{
+    ViewData["Title"] = "EditSalePivot";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>EditSalePivot</h2>
+
+<h4>SalePivotViewModel</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="EditSalePivot">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="ProductID" class="control-label"></label>
+                <select asp-for="ProductID" asp-items="@{new SelectList(Model.Products, "Id", "Product_Name")}">
+                    <option value="">None</option>
+                </select>
+                <span asp-validation-for="ProductID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Quantity" class="control-label"></label>
+                <input asp-for="Quantity" class="form-control" />
+                <span asp-validation-for="Quantity" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Price" class="control-label"></label>
+                <input asp-for="Price" class="form-control" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CustomerPivotID" class="control-label"></label>
+                <select asp-for="CustomerPivotID" asp-items="@{new SelectList(Model.CustomerPivots, "Id", "Research")}">
+                    <option value="">None</option>
+                </select>
+                <span asp-validation-for="CustomerPivotID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

@@ -1,0 +1,69 @@
+﻿@model MedicalStoreManagement.Web.ViewModels.SaleViewModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    
+}
+
+<h2>Index</h2>
+
+<p>
+    <a asp-action="AddSales">Create New Sales</a>
+    <a class="btn btn-default" asp-area="" asp-controller="Customer" asp-action="Index">Customer With Recepts</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                #
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProductID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Quantity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TotaliSale)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CustomerID)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Sales) {
+    
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Product.Product_Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Quantity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            @{ var totaliSale = item.Quantity * item.Price;}
+            <td>@totaliSale</td>
+            <td>
+                <img src="~/ImageAsset/@item.Customer.Recepts" class="img-responsive" width="80" height="80" alt="image from database"/>
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "EditSales", new { saleId = item.Id }, new { onclick = "return confirm('Are you sure want to edit this sale?');" }) |
+                @Html.ActionLink("Details", "Details", new { saleId = item.Id }, new { onclick = "return confirm('Are you sure want to detail this sale?');" }) |
+                @Html.ActionLink("Delete", "DeleteSales", new { saleId = item.Id }, new { onclick = "return confirm('Are you sure want to delete this sale?');" })
+            </td>
+        </tr>
+    
+}
+    </tbody>
+</table>

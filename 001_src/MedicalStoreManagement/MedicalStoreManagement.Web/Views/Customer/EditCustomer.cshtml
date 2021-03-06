@@ -1,0 +1,39 @@
+﻿@model MedicalStoreManagement.Web.ViewModels.CustomerViewModel
+
+@{
+    ViewData["Title"] = "EditCustomer";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>EditCustomer</h2>
+
+<h4>CustomerViewModel</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="EditCustomer">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Recepts" class="control-label"></label>
+                <img src="@Html.DisplayFor(model => model.Recepts)" class="img-responsive" height="40" width="40" asp-append-version="true" />
+                <input asp-for="Recepts" class="form-control" />
+                <span asp-validation-for="Recepts" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ProductID" class="control-label"></label>
+                <select asp-for="ProductID" asp-items="@{new SelectList(Model.Products, "Id", "Product_Name")}" class="form-control">
+                    <option value="">None</option>
+                </select>
+                <span asp-validation-for="ProductID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

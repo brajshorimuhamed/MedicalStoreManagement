@@ -1,0 +1,50 @@
+﻿@model MedicalStoreManagement.Web.ViewModels.FurnitorViewModel
+
+@{
+    ViewData["Title"] = "EditFurnitor";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1 style="color: darkred">EditFurnitor</h1>
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="EditFurnitor">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Furnitor_FirstName" class="control-label"></label>
+                <input asp-for="Furnitor_FirstName" class="form-control" />
+                <span asp-validation-for="Furnitor_FirstName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Furnitor_LastName" class="control-label"></label>
+                <input asp-for="Furnitor_LastName" class="form-control" />
+                <span asp-validation-for="Furnitor_LastName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Furnitor_NrPhone" class="control-label"></label>
+                <input asp-for="Furnitor_NrPhone" class="form-control" />
+                <span asp-validation-for="Furnitor_NrPhone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Furnitor_Email" class="control-label"></label>
+                <input asp-for="Furnitor_Email" class="form-control" />
+                <span asp-validation-for="Furnitor_Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Furnitor_Address" class="control-label"></label>
+                <input asp-for="Furnitor_Address" class="form-control" />
+                <span asp-validation-for="Furnitor_Address" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Edit Furnitor" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
