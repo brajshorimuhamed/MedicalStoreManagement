@@ -64,7 +64,7 @@ using MedicalStoreManagement.Web.Models;
             WriteLiteral("\r\n<h1 style=\"color: darkred\">Index</h1>\r\n\r\n<p>\r\n    ");
             EndContext();
             BeginContext(211, 61, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fffbb7fa224648aba5040d0a44e78a5a", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f9b876c3708d436aadfeebcff4ad3194", async() => {
                 BeginContext(244, 24, true);
                 WriteLiteral("Create New CustomerPivot");
                 EndContext();

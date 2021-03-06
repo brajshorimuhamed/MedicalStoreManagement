@@ -164,7 +164,7 @@ using MedicalStoreManagement.Web.Models;
             WriteLiteral("\r\n        </dd>\r\n    </dl>\r\n</div>\r\n<div>\r\n    ");
             EndContext();
             BeginContext(1114, 38, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "99e2aafc7efe461591c073deded30a2f", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "36b0c8fe9f5948bd864b749d507e18a3", async() => {
                 BeginContext(1136, 12, true);
                 WriteLiteral("Back to List");
                 EndContext();

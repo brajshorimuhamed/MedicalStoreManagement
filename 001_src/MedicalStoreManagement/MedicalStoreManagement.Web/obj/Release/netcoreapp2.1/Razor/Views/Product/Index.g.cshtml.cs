@@ -67,7 +67,7 @@ using MedicalStoreManagement.Web.Models;
             WriteLiteral("\r\n<h1 style=\"color: darkred\">Index</h1>\r\n\r\n<p>\r\n    ");
             EndContext();
             BeginContext(205, 49, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6157f61370984b8a8e1747a767e1096e", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2f091ea03b7944e8920b80f82d9aedcc", async() => {
                 BeginContext(232, 18, true);
                 WriteLiteral("Create New Product");
                 EndContext();
@@ -177,7 +177,7 @@ using MedicalStoreManagement.Web.Models;
             WriteLiteral("\r\n            </td>\r\n            <td>\r\n                ");
             EndContext();
             BeginContext(1351, 111, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fde6e789150d4ebcb8b1a8bcd0ee89e7", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "32567e086d0440ed94479c5bf38f98c7", async() => {
                 BeginContext(1411, 47, false);
 #line 50 "C:\Users\CC-PC\source\repos\MedicalStoreManagement\001_src\MedicalStoreManagement\MedicalStoreManagement.Web\Views\Product\Index.cshtml"
                                                                       Write(Html.DisplayFor(modelItem => item.Product_Name));

@@ -72,7 +72,7 @@ using MedicalStoreManagement.Web.Models;
             WriteLiteral("\r\n<h1 style=\"color: darkred\">List Inventory</h1>\r\n\r\n");
             EndContext();
             BeginContext(215, 107, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0384be549d0f4eccbb158de353436056", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "43a927d5f2e9477cb2c81f6986a69709", async() => {
                 BeginContext(299, 19, true);
                 WriteLiteral("Furnitor Management");
                 EndContext();
@@ -99,7 +99,7 @@ using MedicalStoreManagement.Web.Models;
             WriteLiteral("\r\n\r\n");
             EndContext();
             BeginContext(326, 105, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c3056b0cb68b457185e8e5fa6bd0d502", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e2329091f1654e2b83ca754f480c26a6", async() => {
                 BeginContext(409, 18, true);
                 WriteLiteral("Product Management");
                 EndContext();
@@ -175,7 +175,7 @@ using MedicalStoreManagement.Web.Models;
             WriteLiteral("\r\n                </td>\r\n                <td>\r\n                    ");
             EndContext();
             BeginContext(1172, 91, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "d05ad51d2c644a669a2d6847ac1663f0", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "f143eb2afa8f4ff39caadf1cdc448a82", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();

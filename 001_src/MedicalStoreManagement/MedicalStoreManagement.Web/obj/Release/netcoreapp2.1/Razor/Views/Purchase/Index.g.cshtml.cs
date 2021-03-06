@@ -64,7 +64,7 @@ using MedicalStoreManagement.Web.Models;
             WriteLiteral("\r\n<h1 style=\"color: darkred\">Index</h1>\r\n\r\n<p>\r\n    ");
             EndContext();
             BeginContext(206, 51, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4c1def705dcb40fc80b83bcacb29a22d", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "aed1eefbfb714174a6c2b97818c0415f", async() => {
                 BeginContext(234, 19, true);
                 WriteLiteral("Create New Purchase");
                 EndContext();

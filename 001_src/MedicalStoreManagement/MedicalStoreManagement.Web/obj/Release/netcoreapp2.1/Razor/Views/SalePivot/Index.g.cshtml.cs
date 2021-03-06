@@ -69,7 +69,7 @@ using MedicalStoreManagement.Web.Models;
             WriteLiteral("\r\n<h2>Index</h2>\r\n\r\n<p>\r\n    ");
             EndContext();
             BeginContext(184, 77, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7a99b64f83994cdf82c8c1bfcdf529fc", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "90f539c139864b9995e4d99e32c33224", async() => {
                 BeginContext(237, 20, true);
                 WriteLiteral("Create New SalePivot");
                 EndContext();
@@ -92,7 +92,7 @@ using MedicalStoreManagement.Web.Models;
             WriteLiteral("\r\n    ");
             EndContext();
             BeginContext(267, 117, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "022d41be70b0457ca5d45a15e3103948", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "153cec92ea92473b986d45ee24a89fef", async() => {
                 BeginContext(356, 24, true);
                 WriteLiteral("Customer Without Recepts");
                 EndContext();

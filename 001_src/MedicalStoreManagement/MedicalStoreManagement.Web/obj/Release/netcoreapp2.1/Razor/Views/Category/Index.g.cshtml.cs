@@ -65,7 +65,7 @@ using MedicalStoreManagement.Web.Models;
             WriteLiteral("\r\n<h2>Index</h2>\r\n\r\n<p>\r\n    ");
             EndContext();
             BeginContext(183, 75, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b061fbc9e1dd4397bf52e09f95237f59", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e01100c346ed44f1838ce2585188518d", async() => {
                 BeginContext(235, 19, true);
                 WriteLiteral("Create New Category");
                 EndContext();

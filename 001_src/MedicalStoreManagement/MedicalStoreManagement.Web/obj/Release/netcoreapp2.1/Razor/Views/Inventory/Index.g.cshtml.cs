@@ -72,7 +72,7 @@ using MedicalStoreManagement.Web.Models;
             WriteLiteral("\r\n<div class=\"col-lg-10\">\r\n    ");
             EndContext();
             BeginContext(186, 116, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a0a66d686776499da8d4ccdb67fee96b", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7e11e1dc656b4c36a0fb5f80ca9ca9cf", async() => {
                 BeginContext(278, 20, true);
                 WriteLiteral("Create New Inventory");
                 EndContext();
@@ -108,9 +108,9 @@ using MedicalStoreManagement.Web.Models;
             WriteLiteral("        ");
             EndContext();
             BeginContext(400, 163, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "90cf978078794b2aaf940e3b9dcf1847", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "378c21ff185c4d239b1a5f43e1100e55", async() => {
                 BeginContext(469, 90, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "a6fcfa56be434578824f4f76fc010c6c", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "d0ba72466bbe4dd6a06790b67e5fc4fd", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();

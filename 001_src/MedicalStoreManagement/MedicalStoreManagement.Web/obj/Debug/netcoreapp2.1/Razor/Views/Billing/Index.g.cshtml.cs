@@ -70,7 +70,7 @@ using MedicalStoreManagement.Web.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(98, 112, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7cb01b4cef7347319531546e106f5a70", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4d860b15576846f38ecaaba08a5f3980", async() => {
                 BeginContext(188, 18, true);
                 WriteLiteral("Sales With Recepts");
                 EndContext();
@@ -97,7 +97,7 @@ using MedicalStoreManagement.Web.Models;
             WriteLiteral("\r\n\r\n");
             EndContext();
             BeginContext(214, 120, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ebe17598e0624b6aa8a0d6ec9a1970c3", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6212724445ef4be98c49f9eefd6e6aa8", async() => {
                 BeginContext(309, 21, true);
                 WriteLiteral("Sales Without Recepts");
                 EndContext();
@@ -124,7 +124,7 @@ using MedicalStoreManagement.Web.Models;
             WriteLiteral("\r\n\r\n");
             EndContext();
             BeginContext(338, 117, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "79e430967ec2409c8f65c2f9cf1ef269", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f38f71e2060241c19c9ace3d986ee4aa", async() => {
                 BeginContext(432, 19, true);
                 WriteLiteral("Purchase Management");
                 EndContext();

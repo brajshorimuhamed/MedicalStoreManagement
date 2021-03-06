@@ -74,7 +74,7 @@ using MedicalStoreManagement.Web.Models;
             WriteLiteral("\r\n<h2>Index</h2>\r\n\r\n<p>\r\n    ");
             EndContext();
             BeginContext(185, 45, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7e0ed636231a400a9554356584eadf4f", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d1373ddab6ca41bf9d5fa264b0e3b2eb", async() => {
                 BeginContext(210, 16, true);
                 WriteLiteral("Create New Sales");
                 EndContext();
@@ -96,7 +96,7 @@ using MedicalStoreManagement.Web.Models;
             WriteLiteral("\r\n    ");
             EndContext();
             BeginContext(236, 109, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8238c62c16fa4797bd00e8f13d476bf8", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fd9316509b9442f3acddb8b9ac605d0f", async() => {
                 BeginContext(320, 21, true);
                 WriteLiteral("Customer With Recepts");
                 EndContext();
@@ -240,7 +240,7 @@ using MedicalStoreManagement.Web.Models;
             WriteLiteral("</td>\r\n            <td>\r\n                ");
             EndContext();
             BeginContext(1613, 120, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "f0722baf4dee433e95d3089b1e293b78", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "0f03854d58964512bea0232541745763", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
